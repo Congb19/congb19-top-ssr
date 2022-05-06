@@ -5,6 +5,7 @@ var serverRenderer = require("vue/server-renderer");
 var serverRenderer$1 = require("@vue/server-renderer");
 var vueRouter = require("vue-router");
 var pinia = require("pinia");
+var naiveUi = require("naive-ui");
 var core = require("@vueuse/core");
 var App_vue_vue_type_style_index_0_lang = "";
 var _export_sfc = (sfc, props) => {
@@ -173,15 +174,29 @@ var _imports_0 = "/assets/logo.03d6d6da.png";
 const _sfc_main$3 = vue.defineComponent({
   name: "IndexPage",
   components: {
-    UsePinia
+    UsePinia,
+    NButton: naiveUi.NButton
   }
 });
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_UsePinia = vue.resolveComponent("UsePinia");
+  const _component_NButton = vue.resolveComponent("NButton");
   const _component_router_link = vue.resolveComponent("router-link");
   _push(`<!--[--><img alt="Vue logo"${serverRenderer.ssrRenderAttr("src", _imports_0)}>`);
   _push(serverRenderer.ssrRenderComponent(_component_UsePinia, null, null, _parent));
   _push(`<br>`);
+  _push(serverRenderer.ssrRenderComponent(_component_NButton, null, {
+    default: vue.withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(`button`);
+      } else {
+        return [
+          vue.createTextVNode("button")
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
   _push(serverRenderer.ssrRenderComponent(_component_router_link, { to: "/login" }, {
     default: vue.withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
