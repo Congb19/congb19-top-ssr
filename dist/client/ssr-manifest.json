@@ -1,0 +1,47 @@
+{
+  "vite/modulepreload-polyfill": [],
+  "node_modules/.pnpm/registry.npmmirror.com+@vue+shared@3.2.33/node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/.pnpm/registry.npmmirror.com+@vue+reactivity@3.2.33/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/.pnpm/registry.npmmirror.com+@vue+runtime-core@3.2.33/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/.pnpm/registry.npmmirror.com+@vue+runtime-dom@3.2.33/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "src/App.vue?vue&type=style&index=0&lang.css": [],
+  "plugin-vue:export-helper": [],
+  "src/App.vue": [],
+  "src/main.ts": [],
+  "vite/preload-helper": [],
+  "node_modules/.pnpm/registry.npmmirror.com+vue-router@4.0.15_vue@3.2.33/node_modules/vue-router/dist/vue-router.esm-bundler.js": [],
+  "src/router/index.ts": [],
+  "node_modules/.pnpm/registry.npmmirror.com+vue-demi@0.12.5_vue@3.2.33/node_modules/vue-demi/lib/index.mjs": [],
+  "node_modules/.pnpm/registry.npmmirror.com+pinia@2.0.14_typescript@4.6.4+vue@3.2.33/node_modules/pinia/dist/pinia.esm-browser.js": [],
+  "src/store/user.ts": [],
+  "src/store/index.ts": [],
+  "src/entry-client.ts": [],
+  "index.html": [],
+  "src/components/UsePinia.vue": [
+    "/assets/index.d8d1f2c5.js",
+    "/assets/logo.03d6d6da.png"
+  ],
+  "src/assets/logo.png": [
+    "/assets/index.d8d1f2c5.js",
+    "/assets/logo.03d6d6da.png"
+  ],
+  "src/pages/index.vue": [
+    "/assets/index.d8d1f2c5.js",
+    "/assets/logo.03d6d6da.png"
+  ],
+  "src/pages/login.vue": [
+    "/assets/login.4ebc2b4e.js"
+  ],
+  "src/pages/user.vue": [
+    "/assets/user.71c6ab00.js"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vueuse+shared@8.4.2_vue@3.2.33/node_modules/@vueuse/shared/index.mjs": [
+    "/assets/vueUse.f63a03a7.js"
+  ],
+  "node_modules/.pnpm/registry.npmmirror.com+@vueuse+core@8.4.2_vue@3.2.33/node_modules/@vueuse/core/index.mjs": [
+    "/assets/vueUse.f63a03a7.js"
+  ],
+  "src/pages/vueUse.vue": [
+    "/assets/vueUse.f63a03a7.js"
+  ]
+}
