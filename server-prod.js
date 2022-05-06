@@ -35,6 +35,6 @@ const manifest = require('./dist/client/ssr-manifest.json');
   });
 
   app.listen(8080, () =>
-    console.log('started server on http://localhost:8080')
+    console.log('started server on http://localhost:8002')
   );
 })();

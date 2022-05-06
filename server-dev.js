@@ -51,7 +51,7 @@ const vite = require('vite');
     }
   });
 
-  app.listen(9000, () => {
-    console.log('server is listening in 9000');
+  app.listen(8002, () => {
+    console.log('server is listening in 8002');
   });
 })();
